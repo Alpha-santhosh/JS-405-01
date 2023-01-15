@@ -106,30 +106,6 @@ console.log(totallang)
 function languages(){
     mid_pa.innerText = "10 Most Spoken languages in the world"
     graph.innerHTML = ""
-
-    var world_div = document.createElement("div")
-    graph.appendChild(world_div)
-    world_div.classList.add("details")
-    var worldp = document.createElement("div")
-    worldp.innerText ="World"
-    worldp.classList.add("div_name")
-    world_div.appendChild(worldp)   
-
-    var grap = document.createElement("div")
-        grap.classList.add("width")
-        // grap.style.backgroundColor ="green"
-        world_div.appendChild(grap)
-    var col = document.createElement("div")
-        col.style.width = "100%"
-        col.style.height = "25px"
-        col.style.backgroundColor ="#FFA500"
-        grap.appendChild(col)
-
-    var world = document.createElement("div")
-    world.innerText = `${totallang}`
-    world.classList.add("div_name")
-    world_div.appendChild(world)
-
     for(var i=0;i<10;i++){
         console.log(sortarraylang[i][0])
         console.log(sortarraylang[i][1])
