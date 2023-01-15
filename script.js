@@ -106,7 +106,6 @@ console.log(totallang)
 function languages(){
     mid_pa.innerText = "10 Most Spoken languages in the world"
     graph.innerHTML = ""
-
     for(var i=0;i<10;i++){
         console.log(sortarraylang[i][0])
         console.log(sortarraylang[i][1])
