@@ -120,7 +120,8 @@ function languages(){
         var percent = (sortarraylang[i][1]/totallang)*100
         console.log(percent)
         var grap = document.createElement("div")
-        grap.classList.add("width")
+        grap.style.width = "60%"
+        grap.style.height = "25px"
         // grap.style.backgroundColor ="green"
         detail.appendChild(grap)
         var col = document.createElement("div")
